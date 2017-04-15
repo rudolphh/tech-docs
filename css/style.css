@@ -1,0 +1,47 @@
+
+div#main {  }
+
+div#navbar-container { 
+  background-color: #ecf0f1; 
+  border-bottom: 1px solid lightgray; }
+
+#navbar-container a { 
+  font-weight: bold;
+}
+
+nav#navbar { 
+  position: relative; top: 0px; 
+  left: 10px;  
+}
+
+@media (max-width: 768px) { 
+  nav#navbar { position: static; }
+}
+
+#navbar ul li { 
+  display: inline-block; margin: 5px; }
+main#main-doc { 
+  position: relative; top: 100px; 
+}
+
+section.main-section { 
+  margin: 10px 0 10px 0; 
+}
+
+div.section-content { 
+  margin: 10px 10px 30px 30px; 
+}
+
+section.main-section header {
+  width: 100%;
+  margin: 5px; 
+  background-color: #3498db;
+  color: white;
+  padding: 10px; 
+}
+
+
+.footer { 
+  
+height: 350px; 
+border-top: 1px solid lightgray; }
