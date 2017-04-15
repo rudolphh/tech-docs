@@ -1,4 +1,5 @@
 
+
 div#main {  }
 
 div#navbar-container { 
@@ -39,9 +40,3 @@ section.main-section header {
   color: white;
   padding: 10px; 
 }
-
-
-.footer { 
-  
-height: 350px; 
-border-top: 1px solid lightgray; }

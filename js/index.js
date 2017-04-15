@@ -14,8 +14,13 @@ $(".scroll").on("click touchstart", function (event) {
         }
         //go to destination
         $('html,body').animate({
-            scrollTop: dest - 120
+            scrollTop: dest - $('#navbar-container').height() - 10
         }, 1000, 'swing');
         hashTagActive = this.hash;
     }
 });
+
+$(window).resize(function () {
+    var navbarHeight = $('#navbar-container').height();
+    $('#main-doc').css('top', navbarHeight - 10);
+}).resize();
